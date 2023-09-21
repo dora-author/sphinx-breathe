@@ -15,8 +15,8 @@ import sys
 import os
 import shlex
 
-sys.path.insert(0, os.path.abspath('.'))
-from my_package import __version__ as VERSION
+sys.path.insert(0, os.path.abspath('..'))
+#from my_package import __version__ as VERSION
 
 from sphinx.builders.html import StandaloneHTMLBuilder
 import subprocess, os
@@ -29,9 +29,9 @@ author = 'ejkim'
 
 # Version info for the project, acts as replacement for |version| and |release|
 # The short X.Y version
-version = VERSION
+#version = VERSION
 # The full version, including alpha/beta/rc tags
-release = VERSION
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
