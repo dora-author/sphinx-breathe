@@ -54,7 +54,7 @@ extensions = [
     'sphinx.ext.viewcode',
     #'sphinx_sitemap',
     #'sphinx.ext.inheritance_diagram',
-    'breathe',
+    #'breathe',
     'myst_parser'
 ]
 
