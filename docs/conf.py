@@ -44,7 +44,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'sphinx.ext.autosectionlabel',
-    'sphinxcontrib.httpdomain',
+    #'sphinxcontrib.httpdomain',
     'sphinx_tabs.tabs',
     'sphinx-prompt',
     'sphinx.ext.todo',
