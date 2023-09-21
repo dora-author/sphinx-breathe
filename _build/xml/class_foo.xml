@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="class_foo" kind="class" language="C++" prot="public">
+    <compoundname>Foo</compoundname>
+    <includes local="no">cpp_doxygen_sphinx.hpp</includes>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_foo_1abf88c4997abff7e0244459cca65f3a94" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Foo::say_hello</definition>
+        <argsstring>(std::string message) const</argsstring>
+        <name>say_hello</name>
+        <qualifiedname>Foo::say_hello</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Say hello <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to print </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/cpp_doxygen_sphinx.hpp" line="10" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="class_foo" kindref="compound">Foo</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="my_package/cpp_doxygen_sphinx.hpp" line="6" column="1" bodyfile="my_package/cpp_doxygen_sphinx.hpp" bodystart="6" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_foo_1abf88c4997abff7e0244459cca65f3a94" prot="private" virt="non-virtual"><scope>Foo</scope><name>say_hello</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

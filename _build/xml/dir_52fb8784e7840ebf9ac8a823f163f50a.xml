@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="dir_52fb8784e7840ebf9ac8a823f163f50a" kind="dir">
+    <compoundname>my_package/examples</compoundname>
+    <innerdir refid="dir_f2bc9cfbf509ce961e1d31be94962b4d">my_package/examples/morai_grpc_server</innerdir>
+    <innerdir refid="dir_4361599c73f1beb3aaa7c8a2db1064e3">my_package/examples/socket</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="my_package/examples/"/>
+  </compounddef>
+</doxygen>

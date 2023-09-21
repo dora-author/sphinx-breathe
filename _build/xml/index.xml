@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.7" xml:lang="en-US">
+  <compound refid="structmorai_1_1comm_1_1_data_queue_item" kind="struct"><name>morai::comm::DataQueueItem</name>
+    <member refid="structmorai_1_1comm_1_1_data_queue_item_1a33c5793beeeb1c01072ae96a8990d3fe" kind="variable"><name>size</name></member>
+    <member refid="structmorai_1_1comm_1_1_data_queue_item_1abbf51dcdfa9bc2197ee16376af2d2110" kind="variable"><name>data</name></member>
+    <member refid="structmorai_1_1comm_1_1_data_queue_item_1ae197c5175cc611847dc91ffa6e5e3954" kind="function"><name>DataQueueItem</name></member>
+    <member refid="structmorai_1_1comm_1_1_data_queue_item_1aafacc3016b3b58637d22188f89b8342c" kind="function"><name>~DataQueueItem</name></member>
+  </compound>
+  <compound refid="class_foo" kind="class"><name>Foo</name>
+    <member refid="class_foo_1abf88c4997abff7e0244459cca65f3a94" kind="function"><name>say_hello</name></member>
+  </compound>
+  <compound refid="classmorai_1_1comm_1_1_i_client" kind="class"><name>morai::comm::IClient</name>
+    <member refid="classmorai_1_1comm_1_1_i_client_1ae04837028587dc0ea897ecf470fdfcfd" kind="function"><name>~IClient</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_client_1a53686d682649966326d6c9c7f51a22a8" kind="function"><name>Connect</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_client_1a30ef97240938a276f4ccd6d57bd9b32a" kind="function"><name>Disconnect</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_client_1a43761f741d422c8788bae02347714292" kind="function"><name>IsRunning</name></member>
+  </compound>
+  <compound refid="classmorai_1_1comm_1_1_i_server" kind="class"><name>morai::comm::IServer</name>
+    <member refid="classmorai_1_1comm_1_1_i_server_1a4d8580f1da7474fb02425645807c1026" kind="function"><name>~IServer</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_server_1a43cf9ec9006c29514db1e9119c4df333" kind="function"><name>Start</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_server_1a59ede44fbe7440eb7fb6d71a82a2069c" kind="function"><name>Start</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_server_1a55cb2788d33e1a0c0aedcf41671decae" kind="function"><name>Stop</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_server_1a32597d1a1bc0da676c7442a6dafd595a" kind="function"><name>IsRunning</name></member>
+  </compound>
+  <compound refid="classmorai_1_1comm_1_1_i_socket" kind="class"><name>morai::comm::ISocket</name>
+    <member refid="classmorai_1_1comm_1_1_i_socket_1a3465938f714cb254c85fb82e261b1685" kind="function"><name>~ISocket</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_1a7c16687b4a69d63eb606433dd56d62f9" kind="function"><name>Open</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_1a257d0bf6a7593ce8bb0462249a30352c" kind="function"><name>Open</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_1a868d5b7af0c6e5623e0d413872eef5bf" kind="function"><name>Close</name></member>
+  </compound>
+  <compound refid="classmorai_1_1comm_1_1_i_socket_thread_handler" kind="class"><name>morai::comm::ISocketThreadHandler</name>
+    <member refid="classmorai_1_1comm_1_1_i_socket_thread_handler_1aef1ea2e94d6eeecc8cbb7e4094513a6c" kind="variable"><name>frequency</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_thread_handler_1a385ae7feb33cc06529e8df267c124c7c" kind="variable"><name>DataQueue</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_thread_handler_1a885aff4c772ea2f2ae8ca6ca40ccc388" kind="variable"><name>thread</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_thread_handler_1a976f6c8a9db2c31395ffe5389f67a9b9" kind="function"><name>~ISocketThreadHandler</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_thread_handler_1a34285204f7c919e6d9153ff963f8392c" kind="function"><name>StartThread</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_thread_handler_1a0ee5e349666fa5c91e6b65562b0fa6b6" kind="function"><name>StopThread</name></member>
+    <member refid="classmorai_1_1comm_1_1_i_socket_thread_handler_1a678b8ed047a901d8dc2f7eaf1045e596" kind="function"><name>Work</name></member>
+  </compound>
+  <compound refid="classmorai_1_1comm_1_1_socket_base" kind="class"><name>morai::comm::SocketBase</name>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1a33807f765e2031e835ed32a0c8c3d2dd" kind="variable"><name>m_socket</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1a90daec9b3dd43d8d6a8953630f733e8f" kind="variable"><name>m_networkInfo</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1aa378272d01c06bc53c5a2585163e12d6" kind="variable"><name>m_bIsOpened</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1ada0c64e5b39d8ccddbb79b4b2dce0d75" kind="function"><name>SocketBase</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1a32b6f813b591352a678392ea20975589" kind="function"><name>~SocketBase</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1a62ad54e92faeabbdfe4ddaf484f04a36" kind="function"><name>Open</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1a154ae1d0e137057432ce7b14423c4d4d" kind="function"><name>Open</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1a45ea1ea65517e76497c6b7e6b0698451" kind="function"><name>Close</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1acd00214763b49e4ea16130aff2a53406" kind="function"><name>IsOpened</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1ad93c5ac6b199f62e2486646237f731c2" kind="function"><name>OpenUDPSocket</name></member>
+    <member refid="classmorai_1_1comm_1_1_socket_base_1adad559fe4dab6853378648d5564ef4f4" kind="function"><name>OpenTCPSocket</name></member>
+  </compound>
+  <compound refid="namespacecirrus_1_1msg" kind="namespace"><name>cirrus::msg</name>
+  </compound>
+  <compound refid="namespacemorai" kind="namespace"><name>morai</name>
+  </compound>
+  <compound refid="namespacemorai_1_1comm" kind="namespace"><name>morai::comm</name>
+  </compound>
+  <compound refid="namespacemorai_1_1comm_1_1tcp" kind="namespace"><name>morai::comm::tcp</name>
+  </compound>
+  <compound refid="namespacemorai_1_1comm_1_1udp" kind="namespace"><name>morai::comm::udp</name>
+  </compound>
+  <compound refid="namespacemorai_1_1msg" kind="namespace"><name>morai::msg</name>
+  </compound>
+  <compound refid="namespacemy__package" kind="namespace"><name>my_package</name>
+    <member refid="namespacemy__package_1ad1ac18bc2e188e12ddea288aaff881d9" kind="variable"><name>__version__</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="cpp__doxygen__sphinx_8hpp" kind="file"><name>cpp_doxygen_sphinx.hpp</name>
+  </compound>
+  <compound refid="grpc__server__example_8cpp" kind="file"><name>grpc_server_example.cpp</name>
+    <member refid="grpc__server__example_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="tcp__client__example_8cpp" kind="file"><name>tcp_client_example.cpp</name>
+    <member refid="tcp__client__example_8cpp_1ada809493f713e57294aeb054e69c9176" kind="variable"><name>_mutex</name></member>
+    <member refid="tcp__client__example_8cpp_1aa386698d23ff96af5b64f3ef94ff1a81" kind="function"><name>SAFE_DELETE</name></member>
+    <member refid="tcp__client__example_8cpp_1aced44d7fb21dda3ae02140f573399d4d" kind="function"><name>SendWhile</name></member>
+    <member refid="tcp__client__example_8cpp_1aa5f528e1baee44b88ec701f7978b6d70" kind="function"><name>ReceiveWhile</name></member>
+    <member refid="tcp__client__example_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="tcp__server__example_8cpp" kind="file"><name>tcp_server_example.cpp</name>
+    <member refid="tcp__server__example_8cpp_1a9d424495811f430b277a8f88e8fa4c6a" kind="function"><name>CallbackReceive</name></member>
+    <member refid="tcp__server__example_8cpp_1ac0f2228420376f4db7e1274f2b41667c" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="udp__receiver__example_8cpp" kind="file"><name>udp_receiver_example.cpp</name>
+    <member refid="udp__receiver__example_8cpp_1aefd91927e5540f9c8a5d1dca487194e0" kind="variable"><name>receiver</name></member>
+    <member refid="udp__receiver__example_8cpp_1af083d2d6261c431f39eb81061e718ec5" kind="variable"><name>recv_size</name></member>
+    <member refid="udp__receiver__example_8cpp_1a3cc03ff338ebac1a1602f9069f137d5a" kind="function"><name>Loop</name></member>
+    <member refid="udp__receiver__example_8cpp_1a76b2eb6b430da73230ff808f1058f8c1" kind="function"><name>gnss_sensor_parse</name></member>
+    <member refid="udp__receiver__example_8cpp_1a61ab9381b29e1485006253c22a7db0fb" kind="function"><name>imu_sensor_parse</name></member>
+    <member refid="udp__receiver__example_8cpp_1a34aa5cbf9399166964f93caf2ac1cb34" kind="function"><name>radar_sensor_parse</name></member>
+    <member refid="udp__receiver__example_8cpp_1a163b3fa5a09a4da6d0959337f03c104a" kind="function"><name>lidar_sensor_parse</name></member>
+    <member refid="udp__receiver__example_8cpp_1a9d714aaf5d7b543342e3dc8907b49562" kind="function"><name>image_sensor_parse</name></member>
+    <member refid="udp__receiver__example_8cpp_1a139537e53ffa6140d4dc453ee3a07ba9" kind="function"><name>SureSoft</name></member>
+    <member refid="udp__receiver__example_8cpp_1aea0fe7450345dcb621bf1c8910da2bc9" kind="function"><name>VORDME</name></member>
+    <member refid="udp__receiver__example_8cpp_1acc3a4b9e54d55bfbcd35c65793cf947c" kind="function"><name>Samsung</name></member>
+    <member refid="udp__receiver__example_8cpp_1a63ada1d92b6c1e390c977f6873c124bb" kind="function"><name>MoraiCollision</name></member>
+    <member refid="udp__receiver__example_8cpp_1a87b4b4bf1663453a08556419c25d84c1" kind="function"><name>Read_CirrusTx</name></member>
+    <member refid="udp__receiver__example_8cpp_1a5be6c71107818179474c4a4eb7c36da6" kind="function"><name>Read_Sensor_Image</name></member>
+    <member refid="udp__receiver__example_8cpp_1a1d12be52761b06cae4ad13f8b0bbc116" kind="function"><name>Read_LargePacket</name></member>
+    <member refid="udp__receiver__example_8cpp_1ae2b2b66e2d8c86d01a2a74f27e414089" kind="function"><name>Read_packetImage</name></member>
+    <member refid="udp__receiver__example_8cpp_1a77c807f2be1da61cc99547400b84b600" kind="function"><name>Read_Lidar</name></member>
+    <member refid="udp__receiver__example_8cpp_1a3c378a0ec35e0de3f967d879773e0bf1" kind="function"><name>Lidar3D_V1</name></member>
+    <member refid="udp__receiver__example_8cpp_1a4788206742d414ae84660032504d3d57" kind="function"><name>Timestamp</name></member>
+    <member refid="udp__receiver__example_8cpp_1ac0f2228420376f4db7e1274f2b41667c" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="udp__sender__example_8cpp" kind="file"><name>udp_sender_example.cpp</name>
+    <member refid="udp__sender__example_8cpp_1a6d089e249a0e292f4490d91201739d39" kind="variable"><name>imageSize</name></member>
+    <member refid="udp__sender__example_8cpp_1a5e70812d514bee8861bb2d597d476caf" kind="variable"><name>sender</name></member>
+    <member refid="udp__sender__example_8cpp_1a62091f832a07517a76911d4cb5e33b5e" kind="variable"><name>bmpBuffer</name></member>
+    <member refid="udp__sender__example_8cpp_1a74cbafd0d7aefe87a3c02cde1f4af013" kind="variable"><name>bwBuffer</name></member>
+    <member refid="udp__sender__example_8cpp_1a01a75eacfc7f478782db43e6cbe25489" kind="variable"><name>m_DataQueue</name></member>
+    <member refid="udp__sender__example_8cpp_1a7c1d654b7b6114d7a0abc8d351dd1bcd" kind="variable"><name>dummy</name></member>
+    <member refid="udp__sender__example_8cpp_1acf5ab0847bf50a165c9fe60c9cdc66d5" kind="function"><name>sendVehicleinfo</name></member>
+    <member refid="udp__sender__example_8cpp_1a20dff7afcba58389b9c4200f66a9b0c9" kind="function"><name>sendNavSatFix</name></member>
+    <member refid="udp__sender__example_8cpp_1afb29b705fefc8c644088ca43ac209068" kind="function"><name>sendSensorImage</name></member>
+    <member refid="udp__sender__example_8cpp_1a2bcbf9440f46660c3890a119dc680918" kind="function"><name>sendLargeData</name></member>
+    <member refid="udp__sender__example_8cpp_1a986be3f8c8ba2bde7de9ce6e12a40fab" kind="function"><name>ReadTextFile</name></member>
+    <member refid="udp__sender__example_8cpp_1a3f3c2470629a781e95d78606e42e455e" kind="function"><name>sendLidarData</name></member>
+    <member refid="udp__sender__example_8cpp_1a5482a70d70e26112697d2521d0e6cf63" kind="function"><name>sendControlEngine</name></member>
+    <member refid="udp__sender__example_8cpp_1acfd96d25b47efe3db467e2841b865f9a" kind="function"><name>sendCirrus_Tx</name></member>
+    <member refid="udp__sender__example_8cpp_1a1f4404173ecec1d7b49a424e91a55821" kind="function"><name>sendControlPostion</name></member>
+    <member refid="udp__sender__example_8cpp_1a84ccb8a221182bce66b312a7bb98c2b1" kind="function"><name>sendControlBraking</name></member>
+    <member refid="udp__sender__example_8cpp_1af3c1f41c4856e4c0aeea9a463e96aee1" kind="function"><name>sendVORDME</name></member>
+    <member refid="udp__sender__example_8cpp_1add64f3bb7ff35f085c390e72e8249886" kind="function"><name>TestFunc</name></member>
+    <member refid="udp__sender__example_8cpp_1a8345008d36a1d6ae11131757785befd9" kind="function"><name>insertData</name></member>
+    <member refid="udp__sender__example_8cpp_1a9eb7303878794feb31f4592d1471b1ee" kind="function"><name>SingleMessage</name></member>
+    <member refid="udp__sender__example_8cpp_1a3cc03ff338ebac1a1602f9069f137d5a" kind="function"><name>Loop</name></member>
+    <member refid="udp__sender__example_8cpp_1ac0f2228420376f4db7e1274f2b41667c" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="socket_8h" kind="file"><name>socket.h</name>
+  </compound>
+  <compound refid="dir_52fb8784e7840ebf9ac8a823f163f50a" kind="dir"><name>my_package/examples</name>
+  </compound>
+  <compound refid="dir_f2bc9cfbf509ce961e1d31be94962b4d" kind="dir"><name>my_package/examples/morai_grpc_server</name>
+  </compound>
+  <compound refid="dir_fdcc9af8fe0d609bcb54d9f305edfee3" kind="dir"><name>my_package</name>
+  </compound>
+  <compound refid="dir_4361599c73f1beb3aaa7c8a2db1064e3" kind="dir"><name>my_package/examples/socket</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="namespacemy__package" kind="namespace" language="Python">
+    <compoundname>my_package</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemy__package_1ad1ac18bc2e188e12ddea288aaff881d9" prot="private" static="no" mutable="no">
+        <type>str</type>
+        <definition>str my_package.__version__</definition>
+        <argsstring></argsstring>
+        <name>__version__</name>
+        <qualifiedname>my_package.__version__</qualifiedname>
+        <initializer>=  &apos;1.0&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/__init__.py" line="11" column="1" bodyfile="my_package/__init__.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>    My Package
+    ~~~~~~~~~~
+    
+    EunJung&apos;s Package
+
+    :copyright: (c) 2023 by EunJung Kim.
+    :license: Public Domain.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="my_package/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

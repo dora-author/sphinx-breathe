@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="dir_4361599c73f1beb3aaa7c8a2db1064e3" kind="dir">
+    <compoundname>my_package/examples/socket</compoundname>
+    <innerfile refid="tcp__client__example_8cpp">tcp_client_example.cpp</innerfile>
+    <innerfile refid="tcp__server__example_8cpp">tcp_server_example.cpp</innerfile>
+    <innerfile refid="udp__receiver__example_8cpp">udp_receiver_example.cpp</innerfile>
+    <innerfile refid="udp__sender__example_8cpp">udp_sender_example.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="my_package/examples/socket/"/>
+  </compounddef>
+</doxygen>

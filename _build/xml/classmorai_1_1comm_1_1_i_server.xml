@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="classmorai_1_1comm_1_1_i_server" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>morai::comm::IServer</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_server_1a4d8580f1da7474fb02425645807c1026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual morai::comm::IServer::~IServer</definition>
+        <argsstring>()</argsstring>
+        <name>~IServer</name>
+        <qualifiedname>morai::comm::IServer::~IServer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="76" column="9" bodyfile="my_package/socket.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_server_1a43cf9ec9006c29514db1e9119c4df333" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>morai::msg::ReturnValue</type>
+        <definition>virtual morai::msg::ReturnValue morai::comm::IServer::Start</definition>
+        <argsstring>(const char *server_ip, int server_port)=0</argsstring>
+        <name>Start</name>
+        <qualifiedname>morai::comm::IServer::Start</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>server_ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>server_port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="77" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_server_1a59ede44fbe7440eb7fb6d71a82a2069c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>morai::msg::ReturnValue</type>
+        <definition>virtual morai::msg::ReturnValue morai::comm::IServer::Start</definition>
+        <argsstring>(AddressFamily family, int server_port)=0</argsstring>
+        <name>Start</name>
+        <qualifiedname>morai::comm::IServer::Start</qualifiedname>
+        <param>
+          <type>AddressFamily</type>
+          <declname>family</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>server_port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="78" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_server_1a55cb2788d33e1a0c0aedcf41671decae" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool morai::comm::IServer::Stop</definition>
+        <argsstring>()=0</argsstring>
+        <name>Stop</name>
+        <qualifiedname>morai::comm::IServer::Stop</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="79" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_server_1a32597d1a1bc0da676c7442a6dafd595a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool morai::comm::IServer::IsRunning</definition>
+        <argsstring>()=0</argsstring>
+        <name>IsRunning</name>
+        <qualifiedname>morai::comm::IServer::IsRunning</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="80" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="my_package/socket.h" line="73" column="1" bodyfile="my_package/socket.h" bodystart="74" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classmorai_1_1comm_1_1_i_server_1a32597d1a1bc0da676c7442a6dafd595a" prot="public" virt="pure-virtual"><scope>morai::comm::IServer</scope><name>IsRunning</name></member>
+      <member refid="classmorai_1_1comm_1_1_i_server_1a43cf9ec9006c29514db1e9119c4df333" prot="public" virt="pure-virtual"><scope>morai::comm::IServer</scope><name>Start</name></member>
+      <member refid="classmorai_1_1comm_1_1_i_server_1a59ede44fbe7440eb7fb6d71a82a2069c" prot="public" virt="pure-virtual"><scope>morai::comm::IServer</scope><name>Start</name></member>
+      <member refid="classmorai_1_1comm_1_1_i_server_1a55cb2788d33e1a0c0aedcf41671decae" prot="public" virt="pure-virtual"><scope>morai::comm::IServer</scope><name>Stop</name></member>
+      <member refid="classmorai_1_1comm_1_1_i_server_1a4d8580f1da7474fb02425645807c1026" prot="public" virt="virtual"><scope>morai::comm::IServer</scope><name>~IServer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

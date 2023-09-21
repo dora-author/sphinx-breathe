@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="classmy__package_1_1morai__module_1_1_math" kind="class" language="Python" prot="public">
+    <compoundname>my_package::morai_module::Math</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classmy__package_1_1morai__module_1_1_math_1aceaacb8548e33de8a4e516def73c6181" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>my_package.morai_module.Math::_a</definition>
+        <argsstring></argsstring>
+        <name>_a</name>
+        <qualifiedname>my_package.morai_module.Math._a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/morai_module.py" line="16" column="1" bodyfile="my_package/morai_module.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmy__package_1_1morai__module_1_1_math_1a2410bac8120d60bb5f267be5797a455c" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>my_package.morai_module.Math::_b</definition>
+        <argsstring></argsstring>
+        <name>_b</name>
+        <qualifiedname>my_package.morai_module.Math._b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/morai_module.py" line="17" column="1" bodyfile="my_package/morai_module.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmy__package_1_1morai__module_1_1_math_1a2f4f183a12ecfad3f1129f21dc6ef4ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>my_package.morai_module.Math.__init__</definition>
+        <argsstring>(self, a, b)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>my_package.morai_module.Math.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>a</type>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>b</type>
+          <defname>b</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/morai_module.py" line="15" column="1" bodyfile="my_package/morai_module.py" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classmy__package_1_1morai__module_1_1_math_1a4b11883f1c04cbee12b3fbd928855e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>my_package.morai_module.Math.arclength_of_line</definition>
+        <argsstring>(self, x, y)</argsstring>
+        <name>arclength_of_line</name>
+        <qualifiedname>my_package.morai_module.Math.arclength_of_line</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>x</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>y</type>
+          <defname>y</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function that returns the length of the entire curve surrounded by the parameters x and y at y=f(x).
+
+:param int x: x-axis length
+:param int y: y-axis length
+:returns arc: entire curve length
+
+**Descriptions**: Divide the lengths of the x-axis and y-axis by &apos;num_segments&apos;, and calculate the straight length surrounded by the x-axis and y-axis division section using the Pythagorean hypotenuse length formula.
+  Add up each straight length calculated as many times as &apos;num_segments&apos;, the number of division section on the x-axis and y-axis (the number of intervals on the x-axis and y-axis is the same).
+  At this time, the larger the &apos;num_segments&apos;, the smaller the division interval, so the straight length close to the curve is obtained.
+
+**Example**:
+    When the x-axis division section for a specific index is &apos;x[indx] - x[indx - 1]&apos;, the length of the entire curve surrounded by the x-axis and y-axis division section can be calculated as follows.
+
+    &gt;&gt;&gt; for indx in range(1, num_segments):
+            arc = arc + np.sqrt((x[indx] - x[indx - 1])**2 + (y[indx] - y[indx - 1])**2)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/morai_module.py" line="20" column="1" bodyfile="my_package/morai_module.py" bodystart="20" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classmy__package_1_1morai__module_1_1_math_1a3d9f4f8c8487c9b4b68e2b1b36d40df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>my_package.morai_module.Math.coordinate_transform_point</definition>
+        <argsstring>(self, angle, point)</argsstring>
+        <name>coordinate_transform_point</name>
+        <qualifiedname>my_package.morai_module.Math.coordinate_transform_point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>angle</type>
+          <defname>angle</defname>
+        </param>
+        <param>
+          <type>point</type>
+          <defname>point</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>A function that returns a new coordinate P&apos; when the coordinate P rotates three times in 2D coordinate system with rotation axes X and Y.
+
+:param int angle: a rotation angle about the origin
+:param tuple point: a reference coordinate P. Represented by a 2-element vector p=(px,py).
+:returns transform_pt: a new coordinate P&apos;
+
+**Descriptions**: Calculate a new coordinate rotated three times using the inner product of the rotation matrix.
+    The rotation matrix can be calculated as follows:
+
+    &gt;&gt;&gt; rotation = np.array(((np.cos(angle), -np.sin(angle)),
+    (np.sin(angle), np.cos(angle))))</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/morai_module.py" line="50" column="1" bodyfile="my_package/morai_module.py" bodystart="50" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>A class that can perform various operations using numpy, a vector and matrix operation library.</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>my_package.morai_module.Math</label>
+        <link refid="classmy__package_1_1morai__module_1_1_math"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>my_package.morai_module.Math</label>
+        <link refid="classmy__package_1_1morai__module_1_1_math"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="my_package/morai_module.py" line="9" column="1" bodyfile="my_package/morai_module.py" bodystart="9" bodyend="71"/>
+    <listofallmembers>
+      <member refid="classmy__package_1_1morai__module_1_1_math_1a2f4f183a12ecfad3f1129f21dc6ef4ae" prot="public" virt="non-virtual"><scope>my_package::morai_module::Math</scope><name>__init__</name></member>
+      <member refid="classmy__package_1_1morai__module_1_1_math_1aceaacb8548e33de8a4e516def73c6181" prot="protected" virt="non-virtual"><scope>my_package::morai_module::Math</scope><name>_a</name></member>
+      <member refid="classmy__package_1_1morai__module_1_1_math_1a2410bac8120d60bb5f267be5797a455c" prot="protected" virt="non-virtual"><scope>my_package::morai_module::Math</scope><name>_b</name></member>
+      <member refid="classmy__package_1_1morai__module_1_1_math_1a4b11883f1c04cbee12b3fbd928855e69" prot="public" virt="non-virtual"><scope>my_package::morai_module::Math</scope><name>arclength_of_line</name></member>
+      <member refid="classmy__package_1_1morai__module_1_1_math_1a3d9f4f8c8487c9b4b68e2b1b36d40df2" prot="public" virt="non-virtual"><scope>my_package::morai_module::Math</scope><name>coordinate_transform_point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

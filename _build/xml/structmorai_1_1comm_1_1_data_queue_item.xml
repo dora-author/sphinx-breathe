@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="structmorai_1_1comm_1_1_data_queue_item" kind="struct" language="C++" prot="public">
+    <compoundname>morai::comm::DataQueueItem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structmorai_1_1comm_1_1_data_queue_item_1a33c5793beeeb1c01072ae96a8990d3fe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int morai::comm::DataQueueItem::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>morai::comm::DataQueueItem::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="102" column="5" bodyfile="my_package/socket.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structmorai_1_1comm_1_1_data_queue_item_1abbf51dcdfa9bc2197ee16376af2d2110" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* morai::comm::DataQueueItem::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>morai::comm::DataQueueItem::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="103" column="6" bodyfile="my_package/socket.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structmorai_1_1comm_1_1_data_queue_item_1ae197c5175cc611847dc91ffa6e5e3954" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>morai::comm::DataQueueItem::DataQueueItem</definition>
+        <argsstring>()</argsstring>
+        <name>DataQueueItem</name>
+        <qualifiedname>morai::comm::DataQueueItem::DataQueueItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="95" column="1" bodyfile="my_package/socket.h" bodystart="95" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="structmorai_1_1comm_1_1_data_queue_item_1aafacc3016b3b58637d22188f89b8342c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>morai::comm::DataQueueItem::~DataQueueItem</definition>
+        <argsstring>()</argsstring>
+        <name>~DataQueueItem</name>
+        <qualifiedname>morai::comm::DataQueueItem::~DataQueueItem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="98" column="1" bodyfile="my_package/socket.h" bodystart="98" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="my_package/socket.h" line="93" column="1" bodyfile="my_package/socket.h" bodystart="94" bodyend="104"/>
+    <listofallmembers>
+      <member refid="structmorai_1_1comm_1_1_data_queue_item_1abbf51dcdfa9bc2197ee16376af2d2110" prot="public" virt="non-virtual"><scope>morai::comm::DataQueueItem</scope><name>data</name></member>
+      <member refid="structmorai_1_1comm_1_1_data_queue_item_1ae197c5175cc611847dc91ffa6e5e3954" prot="public" virt="non-virtual"><scope>morai::comm::DataQueueItem</scope><name>DataQueueItem</name></member>
+      <member refid="structmorai_1_1comm_1_1_data_queue_item_1a33c5793beeeb1c01072ae96a8990d3fe" prot="public" virt="non-virtual"><scope>morai::comm::DataQueueItem</scope><name>size</name></member>
+      <member refid="structmorai_1_1comm_1_1_data_queue_item_1aafacc3016b3b58637d22188f89b8342c" prot="public" virt="non-virtual"><scope>morai::comm::DataQueueItem</scope><name>~DataQueueItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

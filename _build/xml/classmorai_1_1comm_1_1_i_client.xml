@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="classmorai_1_1comm_1_1_i_client" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>morai::comm::IClient</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_client_1ae04837028587dc0ea897ecf470fdfcfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual morai::comm::IClient::~IClient</definition>
+        <argsstring>()</argsstring>
+        <name>~IClient</name>
+        <qualifiedname>morai::comm::IClient::~IClient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="87" column="9" bodyfile="my_package/socket.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_client_1a53686d682649966326d6c9c7f51a22a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>morai::msg::ReturnValue</type>
+        <definition>virtual morai::msg::ReturnValue morai::comm::IClient::Connect</definition>
+        <argsstring>(const char *server_ip, int server_port)=0</argsstring>
+        <name>Connect</name>
+        <qualifiedname>morai::comm::IClient::Connect</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>server_ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>server_port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="88" column="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_client_1a30ef97240938a276f4ccd6d57bd9b32a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool morai::comm::IClient::Disconnect</definition>
+        <argsstring>()=0</argsstring>
+        <name>Disconnect</name>
+        <qualifiedname>morai::comm::IClient::Disconnect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="89" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classmorai_1_1comm_1_1_i_client_1a43761f741d422c8788bae02347714292" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool morai::comm::IClient::IsRunning</definition>
+        <argsstring>()=0</argsstring>
+        <name>IsRunning</name>
+        <qualifiedname>morai::comm::IClient::IsRunning</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="my_package/socket.h" line="90" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="my_package/socket.h" line="84" column="1" bodyfile="my_package/socket.h" bodystart="85" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classmorai_1_1comm_1_1_i_client_1a53686d682649966326d6c9c7f51a22a8" prot="public" virt="pure-virtual"><scope>morai::comm::IClient</scope><name>Connect</name></member>
+      <member refid="classmorai_1_1comm_1_1_i_client_1a30ef97240938a276f4ccd6d57bd9b32a" prot="public" virt="pure-virtual"><scope>morai::comm::IClient</scope><name>Disconnect</name></member>
+      <member refid="classmorai_1_1comm_1_1_i_client_1a43761f741d422c8788bae02347714292" prot="public" virt="pure-virtual"><scope>morai::comm::IClient</scope><name>IsRunning</name></member>
+      <member refid="classmorai_1_1comm_1_1_i_client_1ae04837028587dc0ea897ecf470fdfcfd" prot="public" virt="virtual"><scope>morai::comm::IClient</scope><name>~IClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
